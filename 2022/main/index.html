@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANNIFEST 2022</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style-v1.css">
+    <link rel="stylesheet" href="assets/css/btn-v1.css">
+    <style>
+        #preloader {
+            position: relative;
+            z-index: 9999;
+            height: 100vh;
+            background: #233872;
+            width: 100%;
+            text-align: center;
+            padding: 22% 0;
+        }
+
+        .text {
+            font-size: 2em;
+            font-weight: bold;
+            color: #E6B534;
+            text-transform: uppercase;
+        }
+
+        .loading {
+            width: 30px;
+            margin-bottom: 20px;
+        }
+
+        @media only screen and (max-width: 800px) {
+            #preloader {
+                padding: 70% 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="preloader">
+        <img src="assets/img/loading.gif" class="loading">
+        <div id="aspire" data-status="open" class="text" style="color: #198ABC;">
+            Aspire
+        </div>
+        <div id="learn" data-status="close" class="text" style="color: #fff;">
+            Learn
+        </div>
+        <div id="lead" data-status="close" class="text">
+            Lead
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <img class="navbar-brand" src="assets/img/logo-white.webp">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-md-4">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-md-4">
+                        <a class="nav-link" aria-current="page" href="#">Event</a>
+                    </li>
+                    <li class="nav-item mx-md-4">
+                        <a class="nav-link" aria-current="page" href="#">Scholarship</a>
+                    </li>
+                    <li class="nav-item mx-md-4">
+                        <a class="nav-link" aria-current="page" href="#">Submit Profile</a>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-center mt-md-0 mt-3">
+                    <div class="p-0">
+                        <a href="#" class="btn-annif bg-1">RSVP</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid p-0 bg-annif" id="content">
+        <div id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="assets/img/annifest-logo.webp" class="annif-logo" alt="ANNIFEST">
+                        <img src="assets/img/ONLINE FREE.webp" alt="Online" class="annif-illust-2">
+                        <div class="annif-date">
+                            Saturday <div class="d-md-block d-none"></div>
+                            <span class="text-white">9 Apr '22</span>
+                            <div class="d-block"></div>
+                            10 AM WIB
+                        </div>
+                        <img src="assets/img/illust.webp" alt="ANNIFEST" class="annif-illust-1">
+                        <div class="annif-desc">
+                            In celebrating our 6th anniversary,
+                            we’d love to unveil our proven mentorship method so you can #TakeOnYourFuture, follow our
+                            mentees’ footsteps, and ace
+                            your application!
+
+                        </div>
+                        <a href="#" class="btn-annif btn-second btn-annif-lg">Register Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="event">
+            <div class="container">
+                <div class="row align-items-center my-5">
+                    <div class="col-md-5">
+                        <img src="assets/img/nathasya.webp" alt="Nathasya" class="speaker-pic">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="event-title">
+                            TOP UK & ASIAN
+                        </div>
+                        <div class="event-subtitle">
+                            UNIVERSITIES ADMIT
+                        </div>
+                        <div class="event-heading">
+                            Nathasya’s Success Story
+                        </div>
+                        <div class="event-desc">
+                            <ul>
+                                <li>
+                                    How personalized mentoring gives best-fit application strategies in four aspects of
+                                    university preparation.
+                                </li>
+                                <li>
+                                    Breaking down Nathasya's personal statement for Asian & UK universities.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="event-uni">
+                            Accepted to HKUST, HKU, Imperial College, University of Warwick, and many more
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center my-5">
+                    <div class="col-md-5 order-md-2 p-md-5">
+                        <img src="assets/img/rashika-rachinta.webp" alt="Rashika & Rachinta" class="speaker-pic">
+                    </div>
+                    <div class="col-md-7 order-md-1">
+                        <div class="event-title">
+                            TOP US
+                        </div>
+                        <div class="event-subtitle">
+                            UNIVERSITIES ADMIT
+                        </div>
+                        <div class="event-heading">
+                            Deconstruct Essays that Stand Out to US Universities
+                        </div>
+                        <div class="event-desc">
+                            <ul>
+                                <li>
+                                    Revealing key points and how to create stellar US admission essays.
+                                </li>
+                                <li>
+                                    How mentoring helps the twins find their unique personal brand.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="event-uni">
+                            Accepted to Purdue, Georgia Tech, University of Michigan, University of Illinois at Urbana
+                            Champaign
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center my-5">
+                    <div class="col-md-5">
+                        <img src="assets/img/essay.webp" alt="Essay" class="speaker-pic">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="event-title">
+                            ESSAY TOPIC
+                        </div>
+                        <div class="event-subtitle">
+                            CLINIC
+                        </div>
+                        <div class="event-heading">
+                            Compelling Essay Ideas, Tailor-Made to Your Profile
+                        </div>
+                        <div class="event-desc mb-4">
+                            <label class="text-second">Not sure how to start your university application essay?</label>
+                            Submit your profile
+                            and let our
+                            expert mentors suggest suitable
+                            essay topics that showcase your personal brand!
+                        </div>
+                        <div class="text-md-start text-center">
+                            <a href="#" class="btn-annif">Submit Profile</a>
+                            <label class="text-second ms-md-3 mt-md-0 mt-2">
+                                Submissions open until 5 April.
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mt-md-5 mt-3">
+                    <div class="col text-center mt-md-5">
+                        <a href="#" class="btn-annif btn-second btn-annif-xl">Register Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="scholarship">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <img src="assets/img/personal brand.webp" alt="Personal Brand" class="icon1">
+                        <img src="assets/img/essay.webp" alt="Essay" class="icon2">
+                        <img src="assets/img/acad performance.webp" alt="Academic Performance" class="icon3">
+                        <img src="assets/img/exploration.webp" alt="Exploration" class="icon4">
+                        <h2 class="sch-title mt-5">
+                            ALL-IN COMMUNITY <br>
+                            CONTRIBUTION
+                        </h2>
+                        <h5 class="sch-desc">
+                            We always encourage you to DARE TO DREAM, and we try our best to make everyone’s dreams come
+                            true through education.
+                        </h5>
+                    </div>
+                    <div class="col-md-10 text-center">
+                        <div class="sch-head">
+                            ULTIMATE ADMISSION MENTORING SCHOLARSHIP <span class="text-white">
+                                WORTH $5,000
+                            </span>
+                        </div>
+                        <div class="sch-desc">
+                            <strong>
+                                For those of you who need thorough guidance to study abroad, <br> this is a chance for
+                                you.
+                            </strong>
+                        </div>
+                        <div class="sch-desc">
+                            Contact your school counselor to nominate you for this need-based ALL-IN ULTIMATE ADMISSION
+                            MENTORING SCHOLARSHIP
+                            application!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mt-md-3">
+                    <div class="col text-center">
+                        <a href="#" class="btn-annif btn-white btn-annif-lg  btn-annif-lg-mobile">FURTHER INFO AND
+                            APPLICATION</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-7 mt-5 mb-4 text-center">
+                        <h2 class="about-title">ABOUT US
+                        </h2>
+                        <h5 class="about-desc">
+                            We are an independent university consultant based in Jakarta, Indonesia.
+                            Our mission is to ensure that students are thriving into the path they aspire to have in the
+                            future.<br>
+                        </h5>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-9">
+                        <div class="row row-cols-md-3 row-cols-2">
+                            <div class="col mb-2 text-center">
+                                <div class="icon-img p-2">
+                                    <img src="assets/img/about us 1.webp" class="mr-auto ml-auto">
+                                </div>
+                                <p class="icon-desc">100% Students placed<br>at target universities</p>
+                            </div>
+                            <div class="col mb-2 text-center">
+                                <div class="icon-img">
+                                    <img src="assets/img/about us 2.webp" class="mr-auto ml-auto">
+                                </div>
+                                <p class="icon-desc">More than 40<br>School Clients</p>
+                            </div>
+                            <div class="col mb-2 text-center">
+                                <div class="icon-img">
+                                    <img src="assets/img/about us 3.webp" class="mr-auto ml-auto">
+                                </div>
+                                <p class="icon-desc">More than 1,000<br>Esays Reviewed</p>
+                            </div>
+                            <div class="col mb-2 text-center">
+                                <div class="icon-img">
+                                    <img src="assets/img/about us 4.webp" class="mr-auto ml-auto">
+                                </div>
+                                <p class="icon-desc">More than 50<br>Corporate Partners</p>
+                            </div>
+                            <div class="col mb-2 text-center">
+                                <div class="icon-img">
+                                    <img src="assets/img/about us 5.webp" class="mr-auto ml-auto">
+                                </div>
+                                <p class="icon-desc">150+ Point SAT<br>Score Improvement</p>
+                            </div>
+                            <div class="col mb-2 text-center">
+                                <div class="icon-img">
+                                    <img src="assets/img/about us 6.webp" class="mr-auto ml-auto">
+                                </div>
+                                <p class="icon-desc">More than 1,500<br>Event Participants</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container pb-md-4">
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <img src="assets/img/logo-color.png" class="footer-logo" alt="ALL-in Eduspace">
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <i class="fas fa-globe fa-fw"></i> <a href="https://all-inedu.com"
+                            target="_blank">www.all-inedu.com</a>
+                        <br>
+                        <i class="fab fa-instagram fa-fw"></i> <a href="https://www.instagram.com/allineduspace/"
+                            target="_blank">@allineduspace</a>
+                    </div>
+                    <div class="col-md-5 mb-3 ps-md-5">
+                        <i class="fas fa-mobile-alt fa-fw"></i> <a href="https://wa.me/6281808081363"
+                            target="_blank">+62
+                            818-0808-1363</a> /
+                        <a href="https://wa.me/6287860811413" target="_blank">+62 878-6081-1413</a> <br>
+                        <i class="fas fa-envelope fa-fw"></i> <a href="mailto:info@all-inedu.com"
+                            target="_blank">info@all-inedu.com</a>
+                    </div>
+                    <div class="col-md-12">
+                        <hr class="my-2">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        Jl Jeruk Kembar Blok Q9, No. 15 <br> Srengseng, Kembangan <br>
+                        Jakarta Barat 11630, Indonesia
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        #itsALLintheprep <br>
+                        #TakeOnYourFuture
+                    </div>
+                    <div class="col-md-5 mb-3 ps-md-5">
+                        Copyright © 2021 · ALL-in Eduspace. <br>
+                        All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+<script>
+    $('.navbar-toggler').click(function () {
+        $('.navbar').addClass('navbar-allin')
+    })
+
+    $(document).ready(function () {
+        $("#learn").hide();
+        $("#lead").hide();
+        $("#content").hide();
+
+        $("#aspire").fadeIn(500).fadeOut(1000);
+        $("#aspire").data('status', 'close')
+        $("#learn").data('status', 'open')
+
+        setInterval(function () {
+            if ($("#aspire").data('status') == 'open') {
+                $("#aspire").fadeIn(500).fadeOut(1000);
+                $("#aspire").data('status', 'close')
+                $("#learn").data('status', 'open')
+            } else if ($("#learn").data('status') == 'open') {
+                $("#learn").fadeIn(500).fadeOut(1000);
+                $("#learn").data('status', 'close')
+                $("#lead").data('status', 'open')
+            } else if ($("#lead").data('status') == 'open') {
+                $("#lead").fadeIn(500).fadeOut(1000);
+                $("#lead").data('status', 'close')
+                $("#aspire").data('status', 'open')
+            }
+        }, 1500)
+
+        setTimeout(function () {
+            $('#preloader').hide()
+            $("#content").fadeIn(1000)
+        }, 4000)
+
+    })
+</script>
+<script>
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        // console.log(scroll)
+
+        if (scroll > 10) {
+            $('.navbar').addClass('navbar-allin')
+        } else {
+            $('.navbar').removeClass('navbar-allin')
+        }
+    })
+</script>
+
+</html>
