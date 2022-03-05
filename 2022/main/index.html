@@ -370,14 +370,15 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
 <script>
+    $("#learn").hide();
+    $("#lead").hide();
+    $("#content").hide();
+
     $('.navbar-toggler').click(function () {
         $('.navbar').addClass('navbar-allin')
     })
 
     $(document).ready(function () {
-        $("#learn").hide();
-        $("#lead").hide();
-        $("#content").hide();
 
         $("#aspire").fadeIn(500).fadeOut(1000);
         $("#aspire").data('status', 'close')
@@ -402,7 +403,7 @@
         setTimeout(function () {
             $('#preloader').hide()
             $("#content").fadeIn(1000)
-        }, 1000)
+        }, 4000)
 
     })
 </script>
