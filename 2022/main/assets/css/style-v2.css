@@ -121,6 +121,13 @@ img.navbar-brand {
     padding: 5%;
 }
 
+.essay-icon {
+    position: absolute;
+    margin-top: 0%;
+    right: 15%;
+    width: 10%;
+}
+
 
 #scholarship {
     background: rgb(35,39,59);
@@ -324,6 +331,14 @@ footer a:hover {
   .event-uni {
       font-size: 0.8em;
   }
+
+  
+.essay-icon {
+    margin-top: -5%;
+    right: 10%;
+    width: 20%;
+}
+
 
   #scholarship {
       padding: 15% 3% 5% 3%;
