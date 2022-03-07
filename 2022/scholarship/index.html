@@ -68,6 +68,21 @@
             .nav-link {
                 text-align: center !important;
             }
+
+            .sticky-card {
+                text-align: center;
+                display: block !important;
+                position: fixed;
+                background: white;
+                padding: 15px 10px 20px 10px;
+                width: 100%;
+                bottom: 0;
+                z-index: 999;
+            }
+        }
+
+        .sticky-card {
+            display: none;
         }
     </style>
 </head>
@@ -86,6 +101,10 @@
         </div>
     </div>
 
+    <div class="sticky-card">
+        <a href="https://bit.ly/annifest2022-rsvp" target="_blank" class="btn-annif bg-1">RSVP</a>
+    </div>
+
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <img class="navbar-brand" src="assets/img/logo-white.webp">
@@ -100,7 +119,7 @@
                         <a class="nav-link" aria-current="page" href="https://annifest.all-inedu.com">Home</a>
                     </li>
                 </ul>
-                <div class="d-flex justify-content-center mt-md-0 mt-3">
+                <div class="d-flex justify-content-center mt-md-0 mt-3 d-md-block d-none">
                     <div class="p-0">
                         <a href="https://bit.ly/annifest2022-rsvp" target="_blank" class="btn-annif bg-1">RSVP</a>
                     </div>
