@@ -111,7 +111,7 @@ img.navbar-brand {
 .event-uni {
     font-size: 1.4em;
     font-weight: bold;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #E6B534;
     line-height: 1.5;
 }
