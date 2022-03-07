@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700;900&display=swap');
+
+@font-face {
+  font-family: allin;
+  src: url('../font/monument/MonumentExtended-Black.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: sfpro;
+  src: url('../font/sf-pro/SF-Pro-Display-Black.otf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: sfpro;
+  src: url('../font/sf-pro/SF-Pro-Display-Light.otf');
+  font-weight: 200;
+}
+
+body {
+    font-family: sfpro;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
 .text-second {
     color: #E6B534;
 }
@@ -37,6 +63,7 @@ img.navbar-brand {
 .annif-logo {
     width: 80%;
     display: block;
+    margin-left: -90px;
 }
 
 .annif-illust-1 {
@@ -77,20 +104,21 @@ img.navbar-brand {
 }
 
 .event-title {
-    font-size: 4em;
+    font-family: allin;
+    font-size: 3em;
     font-weight: bold;
     text-transform: uppercase;
     color: #E6B534;
     line-height: 1;
-    text-shadow: 2px 2px #fff;
+    /* text-shadow: 2px 2px #fff; */
 }
 
 .event-subtitle {
-    font-size: 4em;
+    font-family: allin;
+    font-size: 3em;
     font-weight: bold;
     text-transform: uppercase;
     color: #198ABC;
-    text-shadow: 2px 2px #fff;
 }
 
 .event-heading {
@@ -123,8 +151,8 @@ img.navbar-brand {
 
 .essay-icon {
     position: absolute;
-    margin-top: 0%;
-    right: 15%;
+    margin-top: -2%;
+    right: 10%;
     width: 10%;
 }
 
@@ -136,7 +164,8 @@ img.navbar-brand {
 }
 
 .sch-title {
-    font-size: 2.5em;
+    font-family: allin;
+    font-size: 2em;
     color: #fff;
     font-weight: bold;
     letter-spacing: 5px;
@@ -145,6 +174,7 @@ img.navbar-brand {
 }
 
 .sch-head {
+    /* font-family: allin; */
     font-size: 3em;
     margin-bottom: 30px;
     color: #E6B534;
@@ -172,14 +202,14 @@ img.navbar-brand {
     position: absolute;
     width: 10%;
     margin-top: 10%;
-    left:8%;
+    left:5%;
     /* transform: rotate(-z0deg); */
 }
 
 .icon3 {
     position: absolute;
     width: 10%;
-    right:20%;
+    right:15%;
     transform: rotate(10deg);
 }
 
@@ -187,8 +217,12 @@ img.navbar-brand {
     position: absolute;
     width: 10%;
     margin-top: 10%;
-    right:8%;
+    right:5%;
     /* transform: rotate(20deg); */
+}
+
+#submit {
+    padding: 10% 0 0 0;
 }
 
 #about {
@@ -206,6 +240,7 @@ img.navbar-brand {
 
 .about-desc {
     font-size: 1.3em;
+    font-weight: 200;
     color: #fff;
     margin-bottom: 50px;
 }
@@ -274,6 +309,7 @@ footer a:hover {
 
   .annif-logo {
       width: 100%;
+      margin: 0;
   }
 
   .annif-illust-1 {
@@ -301,7 +337,7 @@ footer a:hover {
       font-size: 1em;
       width: 100%;
       text-align: justify;
-      font-weight: normal;
+      font-weight: 200;
   }
 
   #event {
@@ -316,12 +352,12 @@ footer a:hover {
 
   .event-title,
   .event-subtitle {
-      font-size: 1.6em;
+      font-size: 1.2em;
       text-shadow: none;
   }
 
   .event-heading {
-      font-size: 1.2em;
+      font-size: 1em;
   }
 
   .event-desc {
@@ -334,7 +370,7 @@ footer a:hover {
 
   
 .essay-icon {
-    margin-top: -5%;
+    margin-top: -7%;
     right: 10%;
     width: 20%;
 }
@@ -346,7 +382,7 @@ footer a:hover {
   }
 
   .sch-title {
-      font-size: 1.5em;
+      font-size: 1.2em;
       letter-spacing: 2px;
   }
 
@@ -356,7 +392,7 @@ footer a:hover {
   }
 
   .sch-head {
-      font-size: 1.6em;
+      font-size: 1.4em;
       letter-spacing: 2px;
       margin-bottom: 20px;
   }
@@ -376,6 +412,10 @@ footer a:hover {
 
   .about-desc {
       font-size: 1em;
+  }
+
+  .icon-desc {
+      font-size: 0.7em;
   }
   
 

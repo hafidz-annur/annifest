@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700;900&display=swap');
+
+@font-face {
+  font-family: allin;
+  src: url('../font/monument/MonumentExtended-Black.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: sfpro;
+  src: url('../font/sf-pro/SF-Pro-Display-Black.otf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: sfpro;
+  src: url('../font/sf-pro/SF-Pro-Display-Light.otf');
+  font-weight: 200;
+}
+
+body, p, ul li {
+    font-family: sfpro;
+    letter-spacing: 1px;
+    font-weight: 200 !important;
+}
+
+.text-second {
+    color: #E6B534;
+}
+
+img.navbar-brand {
+    width: 150px;
+}
+
+.navbar {
+    transition: all 0.3s ease-in-out !important;
+    padding: 15px 0;
+}
+
+.navbar-allin {
+    background: #198ABC;
+}
+
+.nav-item a {
+    color: #fff !important;
+}
+
+.bg-annif {
+    background: url('../img/background.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#home {
+    position: relative;
+    display: block;
+    /* height: 100vh; */
+    padding-top: 9% ;
+}
+
+.annif-logo {
+    width: 80%;
+    display: block;
+    margin-left: -90px;
+}
+
+.annif-illust-1 {
+    position: absolute;
+    width: 25%;
+    margin-top: -8%;
+    right: 10%;
+}
+
+.annif-illust-2 {
+    position: absolute;
+    top:15%;
+    right: 23%;
+    width: 10%;
+}
+
+.annif-date {
+    position: absolute;
+    top:15%;
+    right: 7%;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.1;
+    color: #E6B534;
+    text-align: right;
+}
+
+.annif-desc {
+    font-size: 1.6em;
+    width: 60%;
+    margin-bottom: 50px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#event {
+    padding: 5% 0;
+}
+
+.event-title {
+    font-family: allin;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E6B534;
+    line-height: 1;
+    /* text-shadow: 2px 2px #fff; */
+}
+
+.event-subtitle {
+    font-family: allin;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #198ABC;
+}
+
+.event-heading {
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.event-desc {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.event-desc ul li {
+    margin-left: -10px;
+}
+
+.event-uni {
+    font-size: 1.4em;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    color: #E6B534;
+    line-height: 1.5;
+}
+
+.speaker-pic {
+    width: 100%;
+    padding: 5%;
+}
+
+.essay-icon {
+    position: absolute;
+    margin-top: -2%;
+    right: 10%;
+    width: 10%;
+}
+
+
+#scholarship {
+    background: rgb(35,39,59);
+    background: linear-gradient(180deg, #1e385c21 0%, rgba(32,67,95,1) 34%, rgba(30,84,117,1) 61%, rgba(29,96,133,1) 84%, rgba(27,114,157,1)  130%);
+    padding: 0% 0;
+}
+
+.sch-title {
+    font-family: allin;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 5px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.sch-head {
+    font-size: 3em;
+    margin-bottom: 30px;
+    color: #E6B534;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom:50px;
+}
+
+.sch-desc {
+    font-size: 1.8em;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.icon1 {
+    position: absolute;
+    width: 5%;
+    left:20%;
+    transform: rotate(-10deg);
+}
+
+.icon2 {
+    position: absolute;
+    width: 10%;
+    margin-top: 10%;
+    left:5%;
+    /* transform: rotate(-z0deg); */
+}
+
+.icon3 {
+    position: absolute;
+    width: 10%;
+    right:15%;
+    transform: rotate(10deg);
+}
+
+.icon4 {
+    position: absolute;
+    width: 10%;
+    margin-top: 10%;
+    right:5%;
+    /* transform: rotate(20deg); */
+}
+
+#submit {
+    padding: 10% 0 0 0;
+}
+
+#about {
+    height: 100vh;
+    background: rgb(35,39,59);
+    background: linear-gradient(0deg, rgba(35, 39, 59, 0.726) 0%, rgba(32,67,95,1) 34%, rgba(30,84,117,1) 61%, rgba(29,96,133,1) 84%, rgba(27,114,157,1) 130%);
+}
+
+.about-title {
+    font-size: 2.5em;
+    color: #E6B534;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.about-desc {
+    font-size: 1.3em;
+    font-weight: 200;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.icon-img {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.icon-img img {
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon-desc {
+    color: #fff;
+}
+
+.icon-img:hover img {
+ transform: scale(1.2);
+}
+
+footer {
+    padding: 50px 0 0 0;
+    background: #198ABC;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-logo {
+    width: 50%;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-link {
+        text-align: center !important;
+    }
+
+    .navbar-collapse {
+        padding: 15px 0 !important;
+    }
+
+    .bg-annif {
+        background: url('../img/background.webp');
+        background-color: #232940;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size: contain;
+    }
+
+  #home {
+      padding: 25% 3% 10% 3%;
+      height: auto;
+  }
+
+  .annif-logo {
+      width: 100%;
+      margin: 0;
+  }
+
+  .annif-illust-1 {
+      margin-top:10px;
+      display: none;
+  }
+
+  .annif-illust-2 {
+      width: 15%;
+      margin-top: 38%;
+      right: 5%;
+  }
+
+  .annif-date {
+      margin-top:43%;
+      display: block;
+      left: 5%;
+      width: 40%;
+      font-size: 0.8em;
+      text-align: left;
+  }
+
+  .annif-desc {
+      margin-top:70px;
+      font-size: 1em;
+      width: 100%;
+      text-align: justify;
+      font-weight: 200;
+  }
+
+  #event {
+      padding: 0% 3%;
+      height: auto;
+  }
+
+  .speaker-pic {
+      padding: 0 10%;
+      margin-bottom: 20px;
+  }
+
+  .event-title,
+  .event-subtitle {
+      font-size: 1.2em;
+      text-shadow: none;
+  }
+
+  .event-heading {
+      font-size: 1em;
+  }
+
+  .event-desc {
+      font-size: 1em;
+  }
+
+  .event-uni {
+      font-size: 0.8em;
+  }
+
+  
+.essay-icon {
+    margin-top: -7%;
+    right: 10%;
+    width: 20%;
+}
+
+
+  #scholarship {
+      padding: 15% 3% 5% 3%;
+      height: auto;
+  }
+
+  .sch-title {
+      font-size: 1.2em;
+      letter-spacing: 2px;
+  }
+
+  .sch-desc {
+      font-size: 1em;
+      margin-bottom: 20px;
+  }
+
+  .sch-head {
+      font-size: 1.4em;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+  }
+
+  .icon2,.icon4 {
+      margin-top: 90px;
+  }
+
+  #about {
+      padding: 15% 3% 10% 3%;
+      height: auto;
+  }
+
+  .about-title {
+      font-size: 1.3em;
+  }
+
+  .about-desc {
+      font-size: 1em;
+  }
+
+  .icon-desc {
+      font-size: 0.7em;
+  }
+  
+
+  footer {
+      text-align: center;
+      padding-bottom: 40px;
+  }
+}
