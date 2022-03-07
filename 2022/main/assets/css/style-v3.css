@@ -222,7 +222,8 @@ img.navbar-brand {
 }
 
 #submit {
-    padding: 10% 0 0 0;
+    padding: 2% 0;
+    scroll-margin-top: 170px;
 }
 
 #about {
