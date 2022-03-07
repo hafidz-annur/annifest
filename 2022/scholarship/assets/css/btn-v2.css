@@ -1,0 +1,136 @@
+.btn-annif {
+  top: 0;
+  left: 0;
+  transition: all 0.15s linear 0s;
+  position: relative;
+  /* display: inline-block; */
+  padding: 5px 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background: #E6B534;
+  color: #fff;
+  box-shadow: 6px 6px 0 #233872;
+  text-decoration: none;
+  z-index: 99;
+}
+
+.btn-annif::after {
+  transition: all 0.15s linear 0s;
+  content: "";
+  position: absolute;
+  top: 2px;
+  right: -4px;
+  width: 8px;
+  height: 8px;
+  background-color: #233872;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.btn-annif::before {
+  transition: all 0.15s linear 0s;
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 2px;
+  width: 8px;
+  height: 8px;
+  background-color: #233872;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.btn-annif:hover {
+    color: #fff;
+}
+
+.btn-annif:active {
+  top: 3px;
+  right: -3px;
+  background:#233872;
+  box-shadow: 3px 3px 0 #E6B534;
+}
+
+
+.btn-annif:active::after {
+  top: 1px;
+  right: -2px;
+  width: 4px;
+  height: 4px;
+   background-color: #E6B534;
+}
+.btn-annif:active::before {
+  bottom: -2px;
+  left: 1px;
+  width: 4px;
+  height: 4px;
+   background-color: #E6B534;
+}
+
+
+.btn-second {
+  background: #198ABC !important;
+  box-shadow: 6px 6px 0 #E6B534;
+}
+
+.btn-second::after,
+.btn-second::before {
+  background: #E6B534 !important;
+}
+
+.btn-second:active {
+   background: #E6B534 !important;
+    box-shadow: 3px 3px 0 #198ABC;
+}
+
+.btn-second:active::after,
+.btn-second:active::before {
+    background-color: #198ABC !important;
+}
+
+.btn-white {
+  background: #fff !important;
+  color: #198ABC !important;
+  box-shadow: 6px 6px 0 #E6B534;
+}
+
+.btn-white::after,
+.btn-white::before {
+  background: #E6B534 !important;
+}
+
+.btn-white:active {
+   background: #E6B534 !important;
+    box-shadow: 3px 3px 0 #198ABC;
+}
+
+.btn-white:active::after,
+.btn-white:active::before {
+    background-color: #198ABC !important;
+}
+
+
+.btn-annif-lg {
+  font-size: 1.3em;
+}
+
+.btn-annif-xl{
+  font-size: 2.5em;
+  padding: 5px 50px 10px 50px;
+}
+
+
+@media only screen and (max-width: 800px) {
+.btn-annif-lg {
+  font-size:1em;
+}
+
+.btn-annif-xl{
+  font-size: 1.2em;
+}
+
+.btn-annif-lg-mobile{
+  font-size: 0.8em !important;
+}
+
+}
+
