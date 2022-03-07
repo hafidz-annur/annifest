@@ -64,6 +64,10 @@
                 background: white;
                 border-radius: 0 !important;
             }
+
+            .nav-link {
+                text-align: center !important;
+            }
         }
     </style>
 </head>
@@ -82,6 +86,29 @@
         </div>
     </div>
 
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <img class="navbar-brand" src="assets/img/logo-white.webp">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-md-4">
+                        <a class="nav-link" aria-current="page" href="https://annifest.all-inedu.com">Home</a>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-center mt-md-0 mt-3">
+                    <div class="p-0">
+                        <a href="https://bit.ly/annifest2022-rsvp" target="_blank" class="btn-annif bg-1">RSVP</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <div class="container-fluid p-0 bg-annif" id="content">
         <div id="home">
             <div class="container">
@@ -93,6 +120,7 @@
                         <img src="assets/img/exploration.webp" alt="Exploration" class="icon4">
                         <img src="assets/img/ALL-in Eduspace Logo (white).png" class="allin-logo " alt="ANNIFEST">
                         <h1 class="sch-title mt-2">
+                            <b style="color:#E6B534 !important;">ADMISSION MENTORING</b> <br>
                             SCHOLARSHIP
                         </h1>
                         <h5 class="sch-desc">
@@ -288,7 +316,8 @@
                                                         href="https://bit.ly/allin-scholarship-form2022"
                                                         target="_blank">LINK,</a> but make
                                                     sure all documents needed are ready to attach. <br>
-                                                    Or you can click the register button at the bottom of this page.
+                                                    Or you can click the submit document button at the bottom of this
+                                                    page.
                                                 </p>
                                             </div>
                                         </div>
@@ -303,7 +332,7 @@
                                         <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqs">
                                             <div class="accordion-body term-body">
                                                 <p>
-                                                    The program is eligible for students from grade 9 to 12. As for
+                                                    The program is eligible for students in grade 11. As for
                                                     rules,
                                                     we have set requirements that include:
                                                 </p>
@@ -494,6 +523,20 @@
 
     })
 </script>
+
+<script>
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        // console.log(scroll)
+
+        if (scroll > 10) {
+            $('.navbar').addClass('navbar-allin')
+        } else {
+            $('.navbar').removeClass('navbar-allin')
+        }
+    })
+</script>
+
 
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
 <script>
