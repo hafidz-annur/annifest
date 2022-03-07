@@ -1,0 +1,310 @@
+.home-landing{
+    margin-top: 5%;
+}
+
+.allin-logo {
+    width: 45%;
+    text-align: center;
+}
+
+.icon1 {
+    position: absolute;
+    width: 8%;
+    left: 15%;
+    transform: rotate(-10deg);
+}
+
+.icon2 {
+    position: absolute;
+    width: 13%;
+    margin-top: 15%;
+    left:5%;
+    /* transform: rotate(-z0deg); */
+}
+
+.icon3 {
+    position: absolute;
+    width: 13%;
+    right: 13%;
+    margin-top: 3%;
+    transform: rotate(10deg);
+}
+
+.icon4 {
+    position: absolute;
+    width: 13%;
+    margin-top: 15%;
+    right:5%;
+    /* transform: rotate(20deg); */
+}
+
+.sch-title {
+    font-size: 4em;
+    color: #198ABC;
+    font-weight: 800;
+    letter-spacing: 10px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.sch-desc {
+    font-size: 1.5em;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.sch-head {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: #E6B534;
+    font-weight: 800;
+    line-height: 1.2;
+    padding: 1em 4.5em;
+    margin-bottom: 40px;
+}
+
+.scholarship {
+    width: 55%;
+    text-align: center;
+}
+
+.horizontal_slider {
+    display: block;
+    width: 100%;
+    overflow-x: scroll;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 10%;
+}
+
+/*this is for chrome / firefox/ opera and safari*/
+.horizontal_slider::-webkit-scrollbar {
+    display: none;
+}
+
+/* for ms*/
+.horizontal_slider {
+    -ms-overflow-style: none;
+}
+
+.slider_container {
+    display: flex;
+    white-space: nowrap;
+}
+
+.item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.item img {
+    width: 180px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.item-desc{
+    margin-top: 10px;
+}
+
+.slider-scholarship{
+    background-color: #233872;
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px; 
+    height: 305px;
+    margin-top: 2px;
+}
+
+.type{
+	display: flex;
+	flex-direction: column;
+}
+.type a{
+	color:#FFFFFF !important;
+	margin: 5px 0px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	padding-right: 8px;
+}
+.type span{
+	color:rgba(26,26,26,0.5);
+}
+
+
+/* Custom style */
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    transform: scale(.7) !important;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+}
+
+.accordion-text-header{
+    text-align: center !important;
+    width: 100%;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff !important;
+    background: #198ABC !important;
+}
+
+.accordion-button {
+    font-size: 17px !important;
+    color: #fff !important;
+    background: #ea9d38 !important;
+    text-align: center !important;
+}
+
+.accordion-text-header{
+    text-align: left !important;
+    width: 100%;
+    font-weight: 800;
+}
+
+.accordion-body{
+    background-color: #233872;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .horizontal_slider{
+        margin-top: 0%;
+    }
+
+    .bg-annif {
+        background: url('../img/background.webp');
+        background-color: #232940;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size: contain;
+    }
+
+  #home {
+      padding: 25% 3% 10% 3%;
+      height: auto;
+  }
+
+  .allin-logo {
+      width: 50%;
+  }
+
+  .scholarship {
+    width: 85%;
+}
+
+  .annif-illust-1 {
+      margin-top:10px;
+      display: none;
+  }
+
+  .annif-illust-2 {
+      width: 15%;
+      margin-top: 38%;
+      right: 5%;
+  }
+
+  .annif-date {
+      margin-top:43%;
+      display: block;
+      left: 5%;
+      width: 40%;
+      font-size: 0.8em;
+      text-align: left;
+  }
+
+  .annif-desc {
+      margin-top:70px;
+      font-size: 1em;
+      width: 100%;
+      text-align: justify;
+      font-weight: normal;
+  }
+
+  #event {
+      padding: 5% 3% 5% 3%;
+      height: auto;
+  }
+
+  .speaker-pic {
+      padding: 0 10%;
+      margin-bottom: 20px;
+  }
+
+  .event-title,
+  .event-subtitle {
+      font-size: 1.6em;
+      text-shadow: none;
+  }
+
+  .event-heading {
+      font-size: 1.2em;
+  }
+
+  .event-desc {
+      font-size: 1em;
+  }
+
+  .event-uni {
+      font-size: 0.8em;
+  }
+
+  
+.essay-icon {
+    margin-top: -5%;
+    right: 10%;
+    width: 20%;
+}
+
+  #scholarship {
+      padding: 5% 3% 5% 3%;
+      height: auto;
+  }
+
+  .sch-title {
+      font-size: 2em;
+      letter-spacing: 2px;
+  }
+
+  .sch-desc {
+      font-size: 1em;
+      margin-bottom: 20px;
+  }
+
+  .sch-head {
+      font-size: 1em;
+      margin-bottom: 20px;
+      padding: 0.2em;
+  }
+
+  .icon2,.icon4 {
+      margin-top: 75px;
+  }
+
+  #about {
+      padding: 5% 3% 10% 3%;
+      height: auto;
+  }
+
+  .about-title {
+      font-size: 1.3em;
+  }
+
+  .about-desc {
+      font-size: 1em;
+  }
+  
+
+  footer {
+      text-align: center;
+      padding-bottom: 40px;
+  }
+}
