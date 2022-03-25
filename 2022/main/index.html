@@ -93,7 +93,7 @@
 </head>
 
 <body>
-    <div id="preloader">
+    <!-- <div id="preloader">
         <img src="assets/img/loading.gif" class="loading">
         <div id="aspire" data-status="open" class="text" style="color: #198ABC;">
             Aspire
@@ -104,7 +104,7 @@
         <div id="lead" data-status="close" class="text">
             Lead
         </div>
-    </div>
+    </div> -->
     <div class="sticky-card">
         <a href="https://bit.ly/annifest2022-rsvp" target="_blank" class="btn-annif bg-1">RSVP</a>
     </div>
@@ -134,7 +134,7 @@
                 </ul>
                 <div class="d-flex justify-content-center d-md-block d-none mt-md-0 mt-3">
                     <div class="p-0">
-                        <a href="https://bit.ly/annifest2022-rsvp" target="_blank" class="btn-annif bg-1">RSVP</a>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#RegisterNow" target="_blank" class="btn-annif bg-1">RSVP</a>
                     </div>
                 </div>
             </div>
@@ -161,7 +161,7 @@
                             application!
 
                         </div>
-                        <a href="https://bit.ly/annifest2022-rsvp" target="_blank"
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#RegisterNow" target="_blank"
                             class="btn-annif btn-second btn-annif-lg">Register
                             Now</a>
                     </div>
@@ -259,7 +259,7 @@
                             essay topics that showcase your personal brand!
                         </div>
                         <div class="text-md-start text-center">
-                            <a href="https://bit.ly/annifest2022-profilesub" target="_blank" class="btn-annif">Submit
+                            <a href="https://bit.ly/annifest2022-profilesub" target="_blank" class="btn-annif-submit">Submit
                                 Profile</a>
                             <label class="text-second ms-md-3 mt-md-0 mt-2">
                                 Submissions open until 5 April.
@@ -270,14 +270,39 @@
 
                 <div class="row justify-content-center mt-md-5 mt-3" data-aos="fade-up">
                     <div class="col text-center mt-md-5 mt-4">
-                        <a href="https://bit.ly/annifest2022-rsvp" target="_blank"
-                            class="btn-annif btn-second btn-annif-xl">Register
+                        <a href="#" target="_blank"
+                            class="btn-annif btn-second btn-annif-xl" data-bs-toggle="modal" data-bs-target="#RegisterNow">Register
                             Now</a>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        <!-- The Modal -->
+        <div class="modal" id="RegisterNow">
+            <div class="modal-dialog modal-dialog-centered" role="document" >
+                <div class="modal-content">
+            
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                    <h4 class="modal-title"><b>Register</b> </h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+            
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <iframe class="responsive-iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSdnvA4mi9Zyf2hMLcG88fZ0u0vmAomXgc9S1_KuS20YY3p9Ww/viewform?embedded=true" width="640" height="1282" frameborder="0" marginheight="0" marginwidth="0">Memuat…</iframe>
+                    </div>
+            
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
-
+        <!-- The Modal -->
         <div id="scholarship">
             <div class="container">
                 <div class="row justify-content-center" data-aos="fade-up">
@@ -323,8 +348,10 @@
                 <div class="row justify-content-center mt-md-3" data-aos="fade-up">
                     <div class="col text-center">
                         <a href="https://scholarship.all-inedu.com"
-                            class="btn-annif btn-white btn-annif-lg  btn-annif-lg-mobile">Further Info and
-                            Application</a>
+                            class="btn-annif btn-yellow btn-annif-lg" style="display: inline-flex;" > 
+                            Further Info &amp;  <br>
+                             Application 
+                        </a>
                     </div>
                 </div>
             </div>
@@ -443,7 +470,7 @@
         });
     });
 </script>
-<script>
+<!-- <script>
     $("#learn").hide();
     $("#lead").hide();
     $("#content").hide();
@@ -480,7 +507,7 @@
         }, 5000)
 
     })
-</script>
+</script> -->
 <script>
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
